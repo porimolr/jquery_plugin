@@ -160,7 +160,7 @@ header h1 {
 }
 /* parallax_3 */
 .water{
-    background-image: url(/water_ripple/pexels-hungtran-3699434.jpg);
+    background-image: url(../water_ripple/img/pexels-hungtran-3699434.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
