@@ -267,3 +267,22 @@ $('.parallax-window').parallax({
     naturalHeight: 400
   });
   //parallax_2
+//   parallax($('.element'), 15, true)
+//parallax_3
+$(document).ready(function(){
+    $('.water').ripples({
+        dropRadius: 12,
+        perturbance:0.01,
+        
+        });
+})
+//skider_1
+$(document).ready(function(){
+    $(".banner_carousel").owlCarousel({
+      loop:true,
+      items:1,
+      nav:true,
+      smartSpeed:1000,
+
+    });
+    });

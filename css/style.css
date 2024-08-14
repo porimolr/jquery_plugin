@@ -158,4 +158,79 @@ header h1 {
 	min-height: 400px;
 	background: transparent;
 }
-/* parallax_2 */
+/* parallax_3 */
+.water{
+    background-image: url(/water_ripple/pexels-hungtran-3699434.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* slide_1 */
+.banner_carousel{
+    position: static;
+    
+
+}
+.owl-nav{
+
+}
+.banner_carousel .owl-nav .owl-prev{
+    position: absolute;
+    top: 45%;
+    left: 16px;
+}
+.banner_carousel .owl-nav .owl-prev span{
+    display: block;
+    width: 26px;
+    height: 31px;
+    background-color: #00cce1;
+    font-size: 30px;
+    line-height: 26px;
+    color: #ffffff;
+    
+}
+.banner_carousel .owl-nav .owl-next{
+    position: absolute;
+    top: 45%;
+    right: 0;
+}
+.banner_carousel .owl-nav .owl-next span{
+    display: block;
+    width: 26px;
+    height: 31px;
+    background-color: #00cce1;
+    font-size: 30px;
+    line-height: 26px;
+    color: #ffffff;
+
+}
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.banner_carousel .owl-dots .owl-dot span{
+    display: block;
+    width: 9px;
+    height: 9px;
+    background-color:#c6ccd0;
+    border-radius: 50%;
+}
+.banner_carousel .owl-nav span{
+    transition: all .3s ease-in-out;
+}
+.banner_carousel .owl-nav span:hover{
+    background-color: #f69165;
+}
+.banner_carousel  .owl-dot.active span{
+    display: block;
+
+    background-color: #f69165;
+    
+}
+/* slider_2 */
