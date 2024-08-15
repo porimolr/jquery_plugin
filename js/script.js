@@ -286,3 +286,32 @@ $(document).ready(function(){
 
     });
     });
+    //mixitup_3
+    $(document).ready(function(){
+        var mixer = mixitup('#fillter', {
+            animation: {
+                duration: 300
+            }
+        });
+    })
+    
+    //prealoder
+    // javaScript code here
+
+// jQuery code here
+$(function () {
+    // preloader start
+    $(window).load(function () {
+      $("#loading").fadeOut(400);
+    });
+    // preloader end
+  });
+  //slick slider_3
+  $(document).ready(function(){
+    $('.slider').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows: true,
+        speed:300,
+    });
+  });
